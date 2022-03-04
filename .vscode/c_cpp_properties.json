@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "CH579",
+            "includePath": [
+                "${workspaceFolder}/inc",
+                "${workspaceFolder}/cmsis/inc",
+                "${workspaceFolder}/device/inc",
+                "${workspaceFolder}/driver/inc",
+                "${env:GCCARM}/include"
+            ],
+            "defines": [
+                "__GNUC__"
+            ],
+            "intelliSenseMode": "windows-gcc-arm",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

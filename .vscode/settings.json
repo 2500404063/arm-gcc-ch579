@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "ch57x_gpio.h": "c",
+        "cmsis_compiler.h": "c",
+        "cmsis_gcc.h": "c",
+        "ch579sfr.h": "c",
+        "stdlib.h": "c",
+        "type_traits": "c",
+        "stdint.h": "c",
+        "ch57x_clk.h": "c",
+        "ch57x_uart.h": "c"
+    }
+}
