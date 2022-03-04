@@ -148,7 +148,6 @@ def clear():
 if __name__ == '__main__':
     Preprocess()
     ReadChanging()
-    compile()
     try:
         todo = sys.argv[1]
         if todo == 'compile':
