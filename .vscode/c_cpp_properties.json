@@ -12,6 +12,7 @@
             "defines": [
                 "__GNUC__"
             ],
+            "compilerPath": "${env:GCCARM}/../bin/arm-none-eabi-gcc.exe",
             "intelliSenseMode": "windows-gcc-arm",
             "cStandard": "c11",
             "cppStandard": "c++17"
