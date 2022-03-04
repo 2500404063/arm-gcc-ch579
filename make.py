@@ -95,11 +95,12 @@ def compile():
                 sources_hashes[input_file] = cur_feature
                 hasChanged = True
             elif sources_hashes[input_file] == cur_feature:
-                break
+                continue
             else:
                 sources_hashes[input_file] = cur_feature
                 hasChanged = True
             # Start to compile
+            print(f'Compile: {input_file}')
             output_file = os.path.join(
                 buildDir, re.match('.*\.', s)[0][:-1] + '.o')
             os.system(
@@ -147,6 +148,7 @@ def clear():
 if __name__ == '__main__':
     Preprocess()
     ReadChanging()
+    compile()
     try:
         todo = sys.argv[1]
         if todo == 'compile':
